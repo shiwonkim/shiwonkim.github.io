@@ -42,17 +42,19 @@ education:
 #     Ph.D. Student
 #   date: Sep. 2024 - present
 - name: Yonsei University
-  logo: 
+  logo: /assets/images/empty_300x200.png
   position: M.Sc. in Digital Analytics [<a href="https://drive.google.com/file/d/1b8WPrng_qombcY7kuuBcZLOXR2rwLRtW/view?usp=sharing" target="_blank">Thesis</a>]
   date: Mar. 2023 - Aug. 2025
 - name: Yonsei University
+  logo: /assets/images/empty_300x200.png
   position: B.B.A. in Business Administration
   date: Mar. 2017 - Feb. 2023
 
 experience:
 - name: Carnegie Mellon University
+  logo: /assets/images/empty_300x200.png
   position: Visiting Scholar
-  date: Sep. 2019 - Jul. 2021
+  date: Aug. 2024 - Feb. 2025
 
 # awards:
 # - name: Award Name 2
