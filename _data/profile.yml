@@ -43,22 +43,26 @@ education:
 #   date: Sep. 2024 - present
 - name: Yonsei University
   logo: /assets/images/badges/Yonsei.png
-  position: M.Sc. in Digital Analytics [<a href="https://drive.google.com/file/d/1b8WPrng_qombcY7kuuBcZLOXR2rwLRtW/view?usp=sharing" target="_blank">Thesis</a>]
+  position: Master of Science in Digital Analytics [<a href="https://drive.google.com/file/d/1b8WPrng_qombcY7kuuBcZLOXR2rwLRtW/view?usp=sharing" target="_blank">Thesis</a>]
   date: Mar. 2023 - Aug. 2025
 - name: Yonsei University
   logo: /assets/images/badges/Yonsei.png
-  position: B.B.A. in Business Administration
+  position: Bachelor of Business Administration
   date: Mar. 2017 - Feb. 2023
 
-# experience:
-# - name: Carnegie Mellon University
-#   logo: /assets/images/badges/CMU.jpg
-#   position: Visiting Scholar
-#   date: Aug. 2024 - Feb. 2025
-# - name: University of Washington
-#   logo: /assets/images/badges/UW.png
-#   position: Undergraduate Exchange Student
-#   date: Sep. 2018 - Jun. 2019
+experience:
+- name: Carnegie Mellon University, Pittsburgh, PA
+  logo: /assets/images/badges/CMU.jpg
+  position: >- 
+    Software and Societal Systems Department, School of Computer Science <br/>
+    Visiting Scholar
+  date: Aug. 2024 - Feb. 2025
+- name: University of Washington, Seattle, WA
+  logo: /assets/images/badges/UW.png
+  position: >- 
+    Foster School of Business <br/>
+    Undergraduate Exchange Student
+  date: Sep. 2018 - Jun. 2019
 
 # awards:
 # - name: Award Name 2
