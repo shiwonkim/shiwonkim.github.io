@@ -2,10 +2,10 @@ primary_name: "Hey there, I am Shiwon Kim! 👋"
 secondary_name: ""
 navbar_name: "Shiwon Kim"
 
-positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+# positions:
+# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+#   name: Position 1 with logo
+# - name: Position 2 without logo
 
 
 email: "shiwon1998@yonsei.ac.kr"
@@ -46,11 +46,11 @@ education:
   position: B.S. in Computer Science
   date: Sep. 2019 - Jul. 2021
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Peking University
+  logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: Sep. 2019 - Jul. 2021
 
 awards:
 - name: Award Name 2
