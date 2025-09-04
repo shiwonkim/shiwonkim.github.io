@@ -41,25 +41,25 @@ education:
 #     Department of Electrical Engineering and Computer Science <br/>
 #     Ph.D. Student
 #   date: Sep. 2024 - present
-- name: Yonsei University, Seoul, Korea
+- name: Yonsei University, <small>Seoul, Korea</small>
   logo: /assets/images/badges/Yonsei.png
   position: >- 
     Master of Science in Digital Analytics <br/>
     <a href="https://drive.google.com/file/d/1b8WPrng_qombcY7kuuBcZLOXR2rwLRtW/view?usp=sharing" target="_blank">Thesis</a> on Few-Shot Class-Incremental Learning
   date: Mar. 2023 - Aug. 2025
-- name: Yonsei University, Seoul, Korea
+- name: Yonsei University, <small>Seoul, Korea</small>
   logo: /assets/images/badges/Yonsei.png
   position: Bachelor of Business Administration
   date: Mar. 2017 - Feb. 2023
 
 experience:
-- name: Carnegie Mellon University, Pittsburgh, PA
+- name: Carnegie Mellon University, <small>Pittsburgh, PA</small>
   logo: /assets/images/badges/CMU.jpg
   position: >- 
     Software and Societal Systems Department <br/>
     Visiting Scholar
   date: Aug. 2024 - Feb. 2025
-- name: University of Washington, Seattle, WA
+- name: University of Washington, <small>Seattle, WA</small>
   logo: /assets/images/badges/UW_circle.png
   position: >- 
     Foster School of Business <br/>
