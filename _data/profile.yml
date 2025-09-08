@@ -56,13 +56,13 @@ experience:
 - name: Carnegie Mellon University, <small>Pittsburgh, PA</small>
   logo: /assets/images/badges/CMU.jpg
   position: >- 
-    _Visiting Scholar_, Software and Societal Systems Department <br/>
+    <em>Visiting Scholar</em>, Software and Societal Systems Department <br/>
     [<a href="" target="_blank">Project 1</a>] [<a href="" target="_blank">Project 2</a>] [<a href="" target="_blank">Project 3</a>]
   date: Aug. 2024 - Feb. 2025
 - name: University of Washington, <small>Seattle, WA</small>
   logo: /assets/images/badges/UW_gold.png
   position: >- 
-    _Undergraduate Exchange Student_, Foster School of Business
+    <em>Undergraduate Exchange Student</em>, Foster School of Business
   date: Sep. 2018 - Jun. 2019
 
 # awards:
