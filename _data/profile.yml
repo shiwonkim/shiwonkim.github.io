@@ -44,7 +44,7 @@ education:
 - name: Yonsei University, <small>Seoul, Korea</small>
   logo: /assets/images/badges/Yonsei.png
   position: >- 
-    M.Sc., Digital Analytics [<a href="https://drive.google.com/file/d/1b8WPrng_qombcY7kuuBcZLOXR2rwLRtW/view?usp=sharing" target="_blank">Thesis</a>] <br/>
+    M.Sc., Digital Analytics [<a href="https://shiwonkim.github.io/uploads/Masters_Thesis.pdf" target="_blank">Thesis</a>] <br/>
     Advised by Prof. Yu Rang Park
   date: Mar. 2023 - Aug. 2025
 - name: Yonsei University, <small>Seoul, Korea</small>
@@ -57,7 +57,8 @@ experience:
   logo: /assets/images/badges/CMU.jpg
   position: >- 
     <em>Visiting Scholar</em>, Software and Societal Systems Department <br/>
-    [<a href="" target="_blank">Project 1</a>] [<a href="" target="_blank">Project 2</a>] [<a href="" target="_blank">Project 3</a>]
+    Fully Funded by the Korean Government (IITP)
+#    [<a href="" target="_blank">Project 1</a>] [<a href="" target="_blank">Project 2</a>] [<a href="https://shiwonkim.github.io/uploads/11-785_Introduction_to_Deep_Learning.pdf" target="_blank">Project 3</a>]
   date: Aug. 2024 - Feb. 2025
 - name: University of Washington, <small>Seattle, WA</small>
   logo: /assets/images/badges/UW_gold.png
