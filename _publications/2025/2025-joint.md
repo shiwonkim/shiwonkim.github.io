@@ -13,9 +13,9 @@ abstract: >-
 cover:          /assets/images/covers/cover3.jpg
 authors:
   - Shiwon Kim*
-  - Dongjun Hwang*
+  - Dongjun Hwang*#
   - Sungwon Woo*
-  - Rita Singh
+  - Rita Singh#
 links:
   Code: https://github.com/luost26/academic-homepage
   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
