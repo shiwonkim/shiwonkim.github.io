@@ -13,10 +13,10 @@ abstract: >-
   Abstract
 cover:          /assets/images/covers/uiqa.png
 authors:
-  - Shiwon Kim*
-  - Dongjun Hwang*
-  - Sungwon Woo*
-  - Rita Singh
+  - Eryn Ma
+  - Hail Song
+  - Yuchen Dai
+  - Shiwon Kim
 links:
   Report: https://shiwonkim.github.io/uploads/11-785_Introduction_to_Deep_Learning.pdf
 ---
