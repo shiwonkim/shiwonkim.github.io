@@ -7,7 +7,7 @@ body_attr: >-
 ---
 
 <!-- FILTER TABS -->
-<div class="mb-4" style="top: 80px">
+<div class="mb-4">
   <div class="btn-group btn-group-toggle" data-toggle="buttons">
     <label class="btn btn-dark active" onclick="filterSelection('all')">
       <input type="radio" name="options" autocomplete="off" checked> All
@@ -30,7 +30,9 @@ body_attr: >-
         <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
             {% for item in year.items %}
-                {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+                <div class="filter-item {% if item.type %}{{ item.type }}{% else %}publication{% endif %}">
+                    {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+                </div>
             {% endfor %}
         </div>
         {% endfor %}
