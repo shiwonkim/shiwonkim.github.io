@@ -6,6 +6,21 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
+<!-- FILTER TABS -->
+<div class="mb-4">
+  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-dark active" onclick="filterSelection('all')">
+      <input type="radio" name="options" autocomplete="off" checked> All
+    </label>
+    <label class="btn btn-dark" onclick="filterSelection('publication')">
+      <input type="radio" name="options" autocomplete="off"> Publications
+    </label>
+    <label class="btn btn-dark" onclick="filterSelection('project')">
+      <input type="radio" name="options" autocomplete="off"> Projects
+    </label>
+  </div>
+</div>
+
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 <div class="row">
@@ -31,3 +46,17 @@ body_attr: >-
     </div> -->
 
 </div>
+
+<!-- JAVASCRIPT FOR FILTERING -->
+<script>
+  function filterSelection(type) {
+    const items = document.getElementsByClassName("filter-item");
+    for (let i = 0; i < items.length; i++) {
+      if (type === "all" || items[i].classList.contains(type)) {
+        items[i].style.display = "block";
+      } else {
+        items[i].style.display = "none";
+      }
+    }
+  }
+</script>
