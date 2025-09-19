@@ -1,7 +1,7 @@
 ---
 title:          "AI-driven Automated Target Prioritization and Engagement"
 date:           2025-02-24 00:01:00 +0800
-selected:       true
+selected:       false
 type:           project
 pub:            "Studio Project - 2024 CMU Intensive AI Education Program"
 # pub_pre:        "Submitted to "
