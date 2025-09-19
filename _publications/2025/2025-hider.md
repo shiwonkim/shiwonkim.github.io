@@ -6,7 +6,7 @@ type:           publication
 pub:            "La Radiologia Medica"
 # pub_pre:        "Submitted to "
 pub_post:       '(IF 2024: 9.7)'
-# pub_last:       ' <small><span class="badge badge-pill badge-publication badge-success">IF 2024: 9.7</span></small>'
+# pub_last:       ' <small><span class="badge badge-pill badge-publication badge-success">Spotlight</span></small>'
 # pub_date:       "2025"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
