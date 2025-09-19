@@ -13,6 +13,18 @@
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{item.pub_pre}} <i>{{ item.pub }}</i> {{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
+
+            <!-- TAG BADGES -->
+            {% if item.tags %}
+            <p class="mt-2 mb-0">
+                {% assign colors = "primary,secondary,success,danger,warning,info,dark" | split: "," %}
+                {% for tag in item.tags %}
+                    {% assign color_index = forloop.index0 | modulo: colors.size %}
+                    {% assign color = colors[color_index] %}
+                    <span class="badge badge-{{ color }} mr-1">{{ tag }}</span>
+                {% endfor %}
+            </p>
+            {% endif %}
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                 {% for link in item.links %}
