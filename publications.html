@@ -21,42 +21,55 @@ body_attr: >-
   </div>
 </div>
 
+<!-- GROUP PUBLICATIONS BY YEAR -->
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 <div class="row">
-    <div class="col-12">
-        {% for year in pubs_by_year %}
-        {% assign num_papers = year.items | size %}
+  <div class="col-12">
+    {% for year in pubs_by_year %}
+      {% assign year_types = "" %}
+      {% for item in year.items %}
+        {% unless year_types contains item.type %}
+          {% assign year_types = year_types | append: item.type | append: " " %}
+        {% endunless %}
+      {% endfor %}
+
+      <div class="year-block" data-types="{{ year_types | strip }}">
         <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-            {% for item in year.items %}
-                <div class="filter-item {% if item.type %}{{ item.type }}{% else %}publication{% endif %}">
-                    {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
-                </div>
-            {% endfor %}
+          {% for item in year.items %}
+            <div class="filter-item {{ item.type | default: "publication" }}">
+              {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+            </div>
+          {% endfor %}
         </div>
-        {% endfor %}
-    </div>
-
-    <!-- <div class="col-2 d-none d-lg-block">
-        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
-            {% for year in pubs_by_year %}
-            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
-            {% endfor %}
-        </div>
-    </div> -->
-
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 <!-- JAVASCRIPT FOR FILTERING -->
 <script>
   function filterSelection(type) {
     const items = document.getElementsByClassName("filter-item");
+    const yearBlocks = document.getElementsByClassName("year-block");
+
+    // Filter items
     for (let i = 0; i < items.length; i++) {
       if (type === "all" || items[i].classList.contains(type)) {
         items[i].style.display = "block";
       } else {
         items[i].style.display = "none";
+      }
+    }
+
+    // Filter year blocks
+    for (let j = 0; j < yearBlocks.length; j++) {
+      const types = yearBlocks[j].getAttribute("data-types");
+      if (type === "all" || types.includes(type)) {
+        yearBlocks[j].style.display = "block";
+      } else {
+        yearBlocks[j].style.display = "none";
       }
     }
   }
