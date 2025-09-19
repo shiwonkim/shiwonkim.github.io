@@ -1,5 +1,5 @@
 ---
-title:          "Robust Data Contamination and Noise Detection in Medical Images"
+title:          "Image Quality and Abstract Perception Evaluation"
 date:           2024-10-01 00:01:00 +0800
 selected:       true
 type:           project
@@ -18,6 +18,5 @@ authors:
   - Sungwon Woo*
   - Rita Singh
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Report: https://shiwonkim.github.io/uploads/11-785_Introduction_to_Deep_Learning.pdf
 ---
