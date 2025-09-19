@@ -17,6 +17,6 @@ authors:
   - Sungwon Woo*
   - Rita Singh#
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Paper: https://shiwonkim.github.io/uploads/ICCV_CLVision.pdf
+  Code: https://github.com/shiwonkim/Joint_FSCIL
 ---

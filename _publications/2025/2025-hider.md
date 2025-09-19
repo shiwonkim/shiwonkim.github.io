@@ -23,6 +23,6 @@ authors:
   - Young Han Lee#
   - Yu Rang Park#
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Paper: https://shiwonkim.github.io/uploads/La_Radiologia_Medica.pdf
+  Code: https://github.com/DigitalHealthcareLab/24HiDER
 ---
