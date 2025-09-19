@@ -10,7 +10,7 @@ pub_last:       ' <small><span class="badge badge-pill badge-publication badge-s
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
   Abstract
-cover:          /assets/images/covers/hider.png
+cover:          /assets/images/covers/hider_grad.png
 authors:
   - Bong Kyung Jang*
   - Shiwon Kim*
