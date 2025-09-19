@@ -1,5 +1,5 @@
 ---
-title:          "Development of a Memory-efficient Fake Image Detection Pipeline Using Machine Learning Based on Statistical Features"
+title:          "Development of a Memory-Efficient Fake Image Detection Pipeline Using Statistical Feature-Based Machine Learning"
 date:           2024-05-12 00:01:00 +0800
 selected:       true
 pub:            "ICCV 2025 Workshop on Continual Learning in Computer Vision (CLVision)"
