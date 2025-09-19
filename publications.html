@@ -40,6 +40,29 @@ body_attr: >-
           {% for item in year.items %}
             <div class="filter-item {{ item.type | default: "publication" }}">
               {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+              
+              {% if item.tags %}
+                <p class="mt-1 mb-0">
+                  {% for tag in item.tags %}
+                    {% assign tag_color = "secondary" %}
+                    {% case tag %}
+                      {% when "medical imaging" %}
+                        {% assign tag_color = "primary" %}
+                      {% when "continual learning" %}
+                        {% assign tag_color = "success" %}
+                      {% when "few-shot learning" %}
+                        {% assign tag_color = "purple" %}
+                    {% endcase %}
+
+                    {% if tag_color == "purple" %}
+                      <span class="badge text-white" style="background-color: #6f42c1;">{{ tag }}</span>
+                    {% else %}
+                      <span class="badge badge-{{ tag_color }}">{{ tag }}</span>
+                    {% endif %}
+                  {% endfor %}
+                </p>
+              {% endif %}
+              
             </div>
           {% endfor %}
         </div>
@@ -54,7 +77,6 @@ body_attr: >-
     const items = document.getElementsByClassName("filter-item");
     const yearBlocks = document.getElementsByClassName("year-block");
 
-    // Filter items
     for (let i = 0; i < items.length; i++) {
       if (type === "all" || items[i].classList.contains(type)) {
         items[i].style.display = "block";
@@ -63,7 +85,6 @@ body_attr: >-
       }
     }
 
-    // Filter year blocks
     for (let j = 0; j < yearBlocks.length; j++) {
       const types = yearBlocks[j].getAttribute("data-types");
       if (type === "all" || types.includes(type)) {
