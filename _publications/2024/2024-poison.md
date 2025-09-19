@@ -11,7 +11,7 @@ pub:            "2024 Yonsei Digital Healthcare Cybersecurity Competition"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
   Abstract
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/poison.png
 authors:
   - Shiwon Kim*
   - Dongjun Hwang*
