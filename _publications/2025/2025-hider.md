@@ -3,7 +3,7 @@ title:          "Classification Models for Arthropathy Grades of Multiple Joints
 date:           2025-03-24 00:01:00 +0800
 selected:       true
 type:           publication
-tags:           ["medical imaging", "continual learning"]
+tags:           ["medical imaging", "continual learning", "few-shot learning", "federated learning", "multimodal"]
 pub:            "La Radiologia Medica"
 # pub_pre:        "Submitted to "
 pub_post:       '(IF 2024: 9.7)'
