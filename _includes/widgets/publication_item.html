@@ -13,8 +13,29 @@
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{item.pub_pre}} <i>{{ item.pub }}</i> {{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
-
+            
             <!-- TAG BADGES -->
+            {% if item.tags %}
+            <p class="mt-2 mb-0">
+                {% for tag in item.tags %}
+                    {% assign color = "secondary" %}
+                    {% if tag == "medical imaging" %}
+                        {% assign color = "success" %}         {# 초록색 #}
+                    {% elsif tag == "continual learning" %}
+                        {% assign color = "warning" %}         {# 주황색 #}
+                    {% elsif tag == "few-shot learning" %}
+                        {% assign color = "info" %}            {# 하늘색 #}
+                    {% elsif tag == "federated learning" %}
+                        {% assign color = "primary" %}
+                    {% elsif tag == "multimodal" %}
+                        {% assign color = "danger" %}
+                    {% endif %}
+                    <span class="badge badge-{{ color }} mr-1">{{ tag }}</span>
+                {% endfor %}
+            </p>
+            {% endif %}
+            
+            <!-- Random Color -->
             {% if item.tags %}
             <p class="mt-2 mb-0">
                 {% assign colors = "primary,secondary,success,danger,warning,info,dark" | split: "," %}
