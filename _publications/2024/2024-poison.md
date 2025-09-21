@@ -3,7 +3,6 @@ title:          "Robust Detection of Data Contamination and Poisoning in Medical
 date:           2024-08-01 00:01:00 +0800
 selected:       true
 type:           project
-type:           ['medical imaging']
 pub:            "2024 Yonsei Digital Healthcare Cybersecurity Competition"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
