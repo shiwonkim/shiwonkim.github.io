@@ -11,7 +11,7 @@ pub:            "Course Project - 11-785 Introduction to Deep Learning (Fall 202
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
   Abstract
-cover:          /assets/images/covers/uiqa_teaser.png
+cover:          /assets/images/covers/uiqa.png
 authors:
   - Eryn Ma
   - Hail Song

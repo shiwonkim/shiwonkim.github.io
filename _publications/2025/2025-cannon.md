@@ -11,7 +11,7 @@ pub:            "Studio Project - 2024 CMU Intensive AI Education Program"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
   Abstract
-cover:          /assets/images/covers/cannon_teaser.png
+cover:          /assets/images/covers/cannon.png
 authors:
   - Shiwon Kim*
   - Dongjun Hwang*
