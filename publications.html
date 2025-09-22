@@ -28,16 +28,16 @@ body_attr: >-
 
 <!-- FILTER TABS -->
 <div class="mb-3 d-flex flex-wrap align-items-center">
-  <div class="btn-group btn-group-toggle mr-3 mb-2" data-toggle="buttons">
-    <label class="btn btn-dark active" onclick="filterSelection('all')">
-      <input type="radio" name="options" autocomplete="off" checked> All
-    </label>
-    <label class="btn btn-dark" onclick="filterSelection('publication')">
-      <input type="radio" name="options" autocomplete="off"> Publications
-    </label>
-    <label class="btn btn-dark" onclick="filterSelection('project')">
-      <input type="radio" name="options" autocomplete="off"> Projects
-    </label>
+  <div class="filter-type d-flex flex-wrap align-items-center mb-3">
+    <span class="filter-tab badge badge-dark mr-2 px-3 py-2" data-type="all">
+      <i class="fas fa-stream mr-1"></i> All
+    </span>
+    <span class="filter-tab badge badge-primary mr-2 px-3 py-2" data-type="publication">
+      <i class="fas fa-book-open mr-1"></i> Publications
+    </span>
+    <span class="filter-tab badge badge-success mr-2 px-3 py-2" data-type="project">
+      <i class="fas fa-lightbulb mr-1"></i> Projects
+    </span>
   </div>
 
   <!-- TAG MULTI-FILTER -->
