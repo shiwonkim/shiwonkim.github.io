@@ -41,7 +41,7 @@
                 {% for tag in item.tags %}
                     {% assign color_index = forloop.index0 | modulo: colors.size %}
                     {% assign color = colors[color_index] %}
-                    <span class="badge badge-{{ color }} mr-1">{{ tag }}</span>
+                    <span class="badge badge-{{ color }} mr-1 font-weight-bold">{{ tag }}</span>
                 {% endfor %}
             </p>
             {% endif %}
