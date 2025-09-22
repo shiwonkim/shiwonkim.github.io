@@ -26,19 +26,17 @@ body_attr: >-
   }
 </style>
 
-<!-- FILTER TABS -->
-<div class="mb-3 d-flex flex-wrap align-items-center">
-  <div class="btn-group btn-group-toggle mr-3 mb-2" data-toggle="buttons">
-    <label class="btn btn-dark active" onclick="filterSelection('all')">
-      <input type="radio" name="options" autocomplete="off" checked> All
-    </label>
-    <label class="btn btn-dark" onclick="filterSelection('publication')">
-      <input type="radio" name="options" autocomplete="off"> Publications
-    </label>
-    <label class="btn btn-dark" onclick="filterSelection('project')">
-      <input type="radio" name="options" autocomplete="off"> Projects
-    </label>
-  </div>
+<ul class="nav nav-pills mb-3" id="typeTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" onclick="filterSelection('all')">All</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" onclick="filterSelection('publication')">Publications</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" onclick="filterSelection('project')">Projects</a>
+  </li>
+</ul>
 
   <!-- TAG MULTI-FILTER -->
   <div id="tagContainer" class="d-flex flex-wrap">
