@@ -35,13 +35,13 @@
             {% endif %} -->
             <!-- Random Color -->
             {% if item.tags %}
-            <p class="mt-0 mb-0 small">
+            <p class="mt-0 mb-0 small font-weight-bold">
                 <!-- {% assign colors = "primary,secondary,success,danger,warning,info,dark" | split: "," %} -->
                 {% assign colors = "light" | split: "," %}
                 {% for tag in item.tags %}
                     {% assign color_index = forloop.index0 | modulo: colors.size %}
                     {% assign color = colors[color_index] %}
-                    <span class="badge badge-{{ color }} mr-1 font-weight-bold">{{ tag }}</span>
+                    <span class="badge badge-{{ color }} mr-1">{{ tag }}</span>
                 {% endfor %}
             </p>
             {% endif %}
