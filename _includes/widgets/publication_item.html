@@ -19,9 +19,9 @@
                 {% for tag in item.tags %}
                     {% assign color = "secondary" %}
                     {% if tag == "medical imaging" %}
-                        {% assign color = "light" %}
+                        {% assign color = "dark" %}
                     {% elsif tag == "continual learning" %}
-                        {% assign color = "warning" %}
+                        {% assign color = "secondary" %}
                     {% elsif tag == "few-shot learning" %}
                         {% assign color = "info" %}
                     {% elsif tag == "federated learning" %}
