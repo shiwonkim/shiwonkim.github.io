@@ -3,6 +3,7 @@ title:          "Image Quality and Abstract Perception Evaluation"
 date:           2024-10-01 00:01:00 +0800
 selected:       false
 type:           project
+tags:           ["medical imaging"]
 pub:            "Course Project - 11-785 Introduction to Deep Learning (Fall 2024, CMU)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

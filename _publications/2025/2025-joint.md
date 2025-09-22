@@ -3,6 +3,7 @@ title:          "Does Prior Data Matter? Exploring Joint Training in the Context
 date:           2025-10-20 00:01:00 +0800
 selected:       true
 type:           publication
+tags:           ["continual learning", "few-shot learning"]
 pub:            "ICCV 2025 Workshop on Continual Learning in Computer Vision (CLVision)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
