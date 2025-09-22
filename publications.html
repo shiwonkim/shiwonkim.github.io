@@ -36,16 +36,21 @@ body_attr: >-
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+    border: 2px solid transparent;
+    opacity: 0.85;
   }
 
   .filter-tab:hover {
-    opacity: 0.85;
+    opacity: 1;
+    transform: scale(1.03);
   }
 
   .filter-tab.active {
     color: #fff !important;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    opacity: 1;
   }
 
   .filter-tab[data-type="all"] {
