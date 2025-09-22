@@ -4,7 +4,7 @@ date:           2024-08-01 00:01:00 +0800
 selected:       true
 type:           project
 tags:           ["# medical imaging"]
-pub:            "2024 Yonsei Digital Healthcare Cybersecurity Competition"
+pub:            '2024 Yonsei Digital Healthcare Cybersecurity Competition <i class="fas fa-lightbulb mr-1"></i> Projects'
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
