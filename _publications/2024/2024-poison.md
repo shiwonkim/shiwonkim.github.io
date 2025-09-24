@@ -1,5 +1,5 @@
 ---
-title:          "Robust Detection of Data Contamination and Poisoning in Medical Images"
+title:          "Robust Medical Image Classification Against Data Contamination and Poisoning"
 date:           2024-08-01 00:01:00 +0800
 selected:       true
 type:           project
