@@ -1,5 +1,5 @@
 ---
-title:          "AI-driven Automated Target Prioritization and Engagement"
+title:          "AI-Driven Automated Target Prioritization and Engagement"
 date:           2025-02-24 00:01:00 +0800
 selected:       false
 type:           project
