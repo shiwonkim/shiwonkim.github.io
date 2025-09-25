@@ -114,7 +114,7 @@ body_attr: >-
         <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
           {% for item in year.items %}
-            <div class="filter-item {{ item.type | default: "publication" }} {% for tag in item.tags %}{{ tag | slugify }} {% endfor %}">
+            <div class="filter-item {% if item.type %}{{ item.type }}{% endif %} {% for tag in item.tags %}{{ tag | slugify }} {% endfor %}">
               {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
             </div>
           {% endfor %}
