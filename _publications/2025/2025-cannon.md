@@ -16,7 +16,7 @@ authors:
   - Shiwon Kim*
   - Dongjun Hwang*
   - Sungwon Woo*
-  - Rita Singh
+  - Vijay Sai
 links:
   Slides: shiwonkim.github.io
   Video: shiwonkim.github.io
