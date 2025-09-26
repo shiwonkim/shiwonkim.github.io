@@ -25,6 +25,6 @@ authors:
   - Young Han Lee#
   - Yu Rang Park#
 links:
-  Paper: https://shiwonkim.github.io/uploads/La_Radiologia_Medica.pdf
+  Paper: https://link.springer.com/article/10.1007/s11547-025-01974-4
   Code: https://github.com/DigitalHealthcareLab/24HiDER
 ---
