@@ -7,7 +7,7 @@ tags:           ["# medical imaging"]
 pub:            "2024 Yonsei Digital Healthcare Cybersecurity Competition"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-warning" style="font-size: 0.7rem; padding: 0.3em 0.5em;"><i class="fas fa-award mr-1"></i>2nd Place</span> <span class="badge badge-pill badge-info">Featured</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-warning" style="font-size: 0.7rem; padding: 0.3em 0.5em;"><i class="fas fa-award mr-1"></i>2nd Place</span> <span class="badge badge-pill badge-publication badge-info">Featured</span>'
 # pub_date:       "2025"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
