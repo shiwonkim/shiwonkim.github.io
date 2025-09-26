@@ -11,7 +11,7 @@ pub:            "Master's Thesis, Yonsei University"
 # pub_date:       "2025"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
-  Abstract
+  Proposed a dynamic hierarchical equiangular tight frame (DH-ETF) classifier that mitigates base-class bias by preserving prior knowledge through a fixed cluster-level ETF, while enabling flexible accommodation of new classes using adaptable class-level ETFs within each cluster.
 cover:          /assets/images/covers/thesis.png
 authors:
   - Shiwon Kim
