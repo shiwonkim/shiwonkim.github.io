@@ -13,12 +13,12 @@ abstract: >-
   Implemented a real-time nearest-target tracking algorithm and a shoot (and don't shoot) logic based on fine-tuned YOLOv11s. Deployed the system on Jetson Orin Nano and demonstrated engagement of both stationary and moving targets.
 cover:          /assets/images/covers/cannon.png
 authors:
+  - Kyungjin Kim
+  - Shiwon Kim
+  - Seungjae Baek
+  - Soomin Chung
   - Chani Jung
   - Dongjun Hwang
-  - Kyungjin Kim
-  - Seungjae Baek
-  - Shiwon Kim
-  - Soomin Chung
   - Vijay Sai
 links:
   Slides: shiwonkim.github.io
