@@ -11,7 +11,7 @@ pub_post:       '(IF 2024: 9.7)'
 # pub_date:       "2025"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
-  Abstract
+  Developed and validated a continual learning framework for arthropathy grade classification scalable across multiple joints, using hierarchically labeled radiographs of the knee, elbow, ankle, shoulder, and hip from three tertiary hospitals.
 cover:          /assets/images/covers/hider_grad.png
 authors:
   - Bong Kyung Jang*

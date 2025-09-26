@@ -11,7 +11,7 @@ pub:            "ICCV 2025 Workshop on Continual Learning in Computer Vision (CL
 # pub_date:       "2025"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
-  Compared joint training with few-shot class-incremental learning to empirically assess the practical impact of full data access on model performance.
+  Challenged the assumption of limited access to prior data in few-shot class-incremental learning, and compared joint training with incremental learning to empirically assess the practical impact of full data access on model performance.
 cover:          /assets/images/covers/joint_teaser.png
 authors:
   - Shiwon Kim*

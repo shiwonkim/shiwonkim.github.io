@@ -10,7 +10,7 @@ pub:            "Course Project - 11-785 Introduction to Deep Learning (Fall 202
 # pub_date:       "2025"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
-  Abstract
+  Enhanced the interpretation of abstract image perceptions by combining CLIP-IQA and UIQA with a multi-branch backbone, demonstrating superior accuracy and faster convergence compared to existing image quality assessment (IQA) methods.
 cover:          /assets/images/covers/uiqa.png
 authors:
   - Eryn Ma
