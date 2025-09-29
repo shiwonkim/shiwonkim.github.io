@@ -1,4 +1,6 @@
 ---
-title: "Paper accepted at ICCV 2025 Workshop on Continual Learning in Computer Vision (CLVision)"
+title: >-
+    One paper on <em>few-shot class-incremental learning</em> accepted at <a href="https://sites.google.com/view/clvision2025" target="_blank">ICCVW 2025 CLVision</a>!
+#    <a href="https://google.com" target="_blank">read more <i class="fas fa-angle-double-right"></i></a>
 date: 2025-07-14 20:45:00 -0400
 ---
