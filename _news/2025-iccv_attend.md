@@ -1,5 +1,5 @@
 ---
 title: >-
-    <small>✈️</small>  Attending ICCV 2025 at Honolulu, Hawaii!
+    ✈️ Attending ICCV 2025 at Honolulu, Hawaii!
 date: 2025-10-19
 ---
