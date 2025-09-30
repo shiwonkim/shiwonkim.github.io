@@ -4,7 +4,7 @@ date:           2025-08-29 00:01:00 +0800
 selected:       false
 # type:           publication
 tags:           ["# continual learning", "# few-shot learning"]
-pub:            "M.S. Thesis, Yonsei University"
+pub:            "Master's Thesis, Yonsei University"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
