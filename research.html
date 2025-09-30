@@ -97,6 +97,13 @@ body_attr: >-
   </div>
 </div>
 
+<div class="text-right mt-0 mb-0">
+  <small style="font-size: 0.75em;">
+    <strong>* <i>Equal contribution</i>, <sup>†</sup> <i>Corresponding author</i></strong>
+  </small>
+  <span class="text-muted" style="margin-left: 0.3em; margin-right: 0.75em; font-size: 0.7em;">(for publications)</span>
+</div>
+
 <!-- GROUP PUBLICATIONS BY YEAR -->
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
@@ -109,13 +116,6 @@ body_attr: >-
           {% assign year_types = year_types | append: item.type | append: " " %}
         {% endunless %}
       {% endfor %}
-
-      <div class="text-right mt-0 mb-0">
-        <small style="font-size: 0.75em;">
-          <strong>* <i>Equal contribution</i>, <sup>†</sup> <i>Corresponding author</i></strong>
-        </small>
-        <span class="text-muted" style="margin-left: 0.3em; margin-right: 0.75em; font-size: 0.7em;">(for publications)</span>
-      </div>      
       
       <div class="year-block" data-types="{{ year_types | strip }}">
         <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
