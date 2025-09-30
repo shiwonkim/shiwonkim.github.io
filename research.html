@@ -8,7 +8,7 @@ body_attr: >-
 
 <!-- BADGE STYLE -->
 <style>
-  .tag-badge {
+  .tag-filter {
     display: inline-block;
     padding: 0.35em 0.75em;
     font-size: 0.85rem;
@@ -21,7 +21,7 @@ body_attr: >-
     transition: all 0.2s;
   }
 
-  .tag-badge.active {
+  .tag-filter.active {
     background-color: #343a40;
     color: #fff;
   }
@@ -90,9 +90,9 @@ body_attr: >-
   <!-- TAG MULTI-FILTER -->
 <div class="mb-3 d-flex flex-wrap align-items-center">
   <div id="tagContainer" class="d-flex flex-wrap">
-    <div class="tag-badge" onclick="toggleTagFilter('medical-imaging')"># medical imaging</div>
-    <div class="tag-badge" onclick="toggleTagFilter('continual-learning')"># continual learning</div>
-    <div class="tag-badge" onclick="toggleTagFilter('few-shot-learning')"># few-shot learning</div>
+    <div class="tag-filter" onclick="toggleTagFilter('medical-imaging')"># medical imaging</div>
+    <div class="tag-filter" onclick="toggleTagFilter('continual-learning')"># continual learning</div>
+    <div class="tag-filter" onclick="toggleTagFilter('few-shot-learning')"># few-shot learning</div>
     <!-- Add more tags as needed -->
   </div>
 </div>
@@ -148,7 +148,7 @@ body_attr: >-
   }
 
   function toggleTagFilter(tag) {
-    const badge = document.querySelector('.tag-badge[onclick*="' + tag + '"]');
+    const badge = document.querySelector('.tag-filter[onclick*="' + tag + '"]');
     if (activeTags.has(tag)) {
       activeTags.delete(tag);
       badge.classList.remove('active');
