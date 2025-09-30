@@ -111,16 +111,20 @@ body_attr: >-
       {% endfor %}
 
       <div class="year-block" data-types="{{ year_types | strip }}">
-        <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
-        
-        <!-- for the most recent year block -->
         {% if forloop.first %}
-          <div class="text-right mb-2">
-            <small style="font-size: 0.75em;">
-              <strong>* <i>Equal contribution</i>, <sup>†</sup> <i>Corresponding author</i></strong>
-            </small>
-            <span class="text-muted" style="margin-left: 0.3em; font-size: 0.7em;">(for publications)</span>
+          <!-- for the most recent year block -->
+          <div class="d-flex justify-content-between align-items-center">
+            <h4 class="pt-4 mb-0" id="year-{{ year.name }}">{{ year.name }}</h4>
+            <div class="text-right">
+              <small style="font-size: 0.75em;">
+                <strong>* <i>Equal contribution</i>, <sup>†</sup> <i>Corresponding author</i></strong>
+              </small>
+              <span class="text-muted" style="margin-left: 0.3em; font-size: 0.7em;">(for publications)</span>
+            </div>
           </div>
+        {% else %}
+          <!-- else -->
+          <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
         {% endif %}
         
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
