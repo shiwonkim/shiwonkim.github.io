@@ -25,7 +25,8 @@ short_bio: >-
     I am an AI researcher with major interests in
     <span class="badge badge-light"># continual learning</span>,
     <span class="badge badge-light"># few-shot learning</span>, and
-    <span class="badge badge-light"># medical imaging</span>.
+    <span class="badge badge-light"># medical imaging</span>.<br>
+    I just received my M.Sc. in Digital Analytics from Yonsei University, advised by Prof. Yu Rang Park.
   </p>
   <p>
     There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
@@ -47,7 +48,7 @@ education:
 - name: Yonsei University, <small>Seoul, Korea</small>
   logo: /assets/images/badges/Yonsei.png
   position: >- 
-    M.Sc., Digital Analytics <a href="https://shiwonkim.github.io/uploads/Masters_Thesis.pdf" target="_blank">[Thesis]</a> <br/>
+    M.S., Digital Analytics <a href="https://shiwonkim.github.io/uploads/Masters_Thesis.pdf" target="_blank">[Thesis]</a> <br/>
     Advised by Prof. Yu Rang Park
   date: Mar. 2023 - Aug. 2025
 - name: Yonsei University, <small>Seoul, Korea</small>
