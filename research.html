@@ -97,7 +97,7 @@ body_attr: >-
   </div>
 </div>
 
-<div class="text-right mt-5" style="margin-bottom: -3rem;">
+<div class="text-right mt-5" style="margin-bottom: -2.5rem;">
   <small style="font-size: 0.75em;">
     <strong>* <i>Equal contribution</i>, <sup>†</sup> <i>Corresponding author</i></strong>
   </small>
@@ -118,22 +118,7 @@ body_attr: >-
       {% endfor %}
       
       <div class="year-block" data-types="{{ year_types | strip }}">
-        <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
-        
-        <!-- {% if forloop.first %}
-          <div class="d-flex justify-content-between align-items-center">
-            <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
-            <div class="text-right">
-              <small style="font-size: 0.75em;">
-                <strong>* <i>Equal contribution</i>, <sup>†</sup> <i>Corresponding author</i></strong>
-              </small>
-              <span class="text-muted" style="margin-left: 0.3em; margin-right: 0.75em; font-size: 0.7em;">(for publications)</span>
-            </div>
-          </div>
-        {% else %}
-          <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>
-        {% endif %} -->
-        
+        <h4 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h4>        
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
           {% for item in year.items %}
             <div class="filter-item {% if item.type %}{{ item.type }}{% endif %} {% for tag in item.tags %}{{ tag | slugify }} {% endfor %}">
