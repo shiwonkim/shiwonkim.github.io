@@ -23,9 +23,9 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am an AI researcher with major interests in
-    <span class="badge badge-light"># continual learning</span>,
-    <span class="badge badge-light"># few-shot learning</span>, and
-    <span class="badge badge-light"># medical imaging</span>.<br>
+    <span class="tag-badge mr-1" style="margin-top: 1em;"># continual learning</span>,
+    <span class="tag-badge mr-1" style="margin-top: 1em;"># few-shot learning</span>, and
+    <span class="tag-badge mr-1" style="margin-top: 1em;"># medical imaging</span>.<br>
   </p>
   <p>
     Recently, I received my M.S. degree in Digital Analytics from <a href="https://www.yonsei.ac.kr/sites/en_sc/index.do" target="_blank">Yonsei University</a>, under the supervision<br>
