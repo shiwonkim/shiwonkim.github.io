@@ -8,7 +8,6 @@
     margin-bottom: 0.4em;
     background-color: #e9ecef;
     color: #495057;
-    transition: all 0.2s;
   }
   </style>
 
@@ -57,14 +56,14 @@
             </p>
             {% endif %} -->
             <!-- Random Color -->
-            {% if item.tags %}
+            <!-- {% if item.tags %}
             <p class="mt-3 mb-0">
                 {% for tag in item.tags %}
                     <span class="tag-badge mr-1">{{ tag }}</span>
                 {% endfor %}
             </p>
-            {% endif %}
-            <!-- {% if item.tags %}
+            {% endif %} -->
+            {% if item.tags %}
             <p class="mt-0 mb-0">
                 {% assign colors = "light" | split: "," %}
                 {% for tag in item.tags %}
@@ -73,7 +72,7 @@
                     <span class="badge badge-{{ color }} mr-1">{{ tag }}</span>
                 {% endfor %}
             </p>
-            {% endif %} -->
+            {% endif %}
 
         </div>
     </div>
