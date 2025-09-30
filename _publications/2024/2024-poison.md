@@ -1,7 +1,7 @@
 ---
 title:          "Robust Medical Image Classification Against Data Contamination and Poisoning"
 date:           2024-08-01 00:01:00 +0800
-selected:       true
+selected:       false
 type:           project
 tags:           ["# medical imaging"]
 pub:            "2024 Yonsei Digital Healthcare Cybersecurity Competition"
