@@ -20,5 +20,7 @@ authors:
   - Rita Singh#
 links:
   Paper: https://shiwonkim.github.io/uploads/ICCV_CLVision.pdf
+  Poster: 
+  Video: 
   Code: https://github.com/shiwonkim/Joint_FSCIL
 ---
