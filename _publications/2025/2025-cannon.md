@@ -3,6 +3,7 @@ title:          "AI-Driven Automated Target Prioritization and Engagement"
 date:           2025-02-24
 selected:       false
 type:           project
+tags:           ["# robotics", "# object detection"]
 pub:            "Studio Project: AI on the Edge with Robotics - 2024 CMU Intensive AI Education Program"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

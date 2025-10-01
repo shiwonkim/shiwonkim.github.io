@@ -3,7 +3,7 @@ title:          "Robust Medical Image Classification Against Data Contamination 
 date:           2024-08-01
 selected:       false
 type:           project
-tags:           ["# medical imaging"]
+tags:           ["# medical imaging", "# data poisoning", "neural collapse"]
 pub:            "2024 Yonsei Digital Healthcare Cybersecurity Competition"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

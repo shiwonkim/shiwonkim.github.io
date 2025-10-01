@@ -3,7 +3,7 @@ title:          "Debiasing Few-Shot Class-Incremental Learning via Dynamic Featu
 date:           2025-08-29
 selected:       false
 # type:           publication
-tags:           ["# continual learning", "# few-shot learning"]
+tags:           ["# continual learning", "# few-shot learning", "# neural collapse"]
 pub:            "Master's Thesis, Yonsei University"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
