@@ -1,6 +1,6 @@
 ---
 title:          "Image Quality and Abstract Perception Evaluation"
-date:           2024-10-01 00:01:00 +0800
+date:           2024-10-01
 selected:       false
 type:           project
 pub:            "Course Project - 11-785 Introduction to Deep Learning (Fall 2024, CMU)"

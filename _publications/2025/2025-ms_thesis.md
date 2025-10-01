@@ -1,6 +1,6 @@
 ---
 title:          "Debiasing Few-Shot Class-Incremental Learning via Dynamic Feature Classifier Alignment"
-date:           2025-08-29 00:01:00 +0800
+date:           2025-08-29
 selected:       false
 # type:           publication
 tags:           ["# continual learning", "# few-shot learning"]

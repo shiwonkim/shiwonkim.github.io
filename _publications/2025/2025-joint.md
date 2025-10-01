@@ -1,6 +1,6 @@
 ---
 title:          "Does Prior Data Matter? Exploring Joint Training in the Context of Few-Shot Class-Incremental Learning"
-date:           2025-10-20 00:01:00 +0800
+date:           2025-10-20
 selected:       true
 type:           publication
 tags:           ["# continual learning", "# few-shot learning"]
