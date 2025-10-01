@@ -5,13 +5,13 @@ navbar_title: Home
 ---
 
 <div class="row">
-  <!-- 왼쪽 열: 3개의 카드 -->
   <div class="col-lg-4">
     {% include widgets/profile_card.html %}
   </div>
 
-  <!-- 오른쪽 열: 주요 콘텐츠 카드들 -->
-  <div class="col-lg-8">
+  <div class="col-lg-6">
+    {% include widgets/profile_card.html %}
+
     {% include widgets/debug_repo_name.html %}
     
     {% include widgets/debug_url.html %}
