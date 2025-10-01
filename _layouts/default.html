@@ -28,11 +28,7 @@
     </style>
 </head>
 <body class="bg-light" {{ page.body_attr }}>
-    <div class="row justify-content-center">
-        <div class="col-12 col-lg-10">
-            {% include navbar.html %}
-        </div>
-    </div>
+    {% include navbar.html %}
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-fluid{% endif %}">
         {{content}}
     </div>
