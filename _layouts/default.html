@@ -28,25 +28,11 @@
     </style>
 </head>
 <body class="bg-light" {{ page.body_attr }}>
-    <!-- {% include navbar.html %}
+    {% include navbar.html %}
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-fluid{% endif %}">
         {{content}}
     </div>
-    {% include footer.html %} -->
-
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-10">
-      
-        {% include navbar.html %}
-        
-        <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-fluid{% endif %}">
-          {{ content }}
-        </div>
-        
-        {% include footer.html %}
-        
-      </div>
-    </div>
+    {% include footer.html %}
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
