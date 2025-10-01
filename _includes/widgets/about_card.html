@@ -18,16 +18,9 @@
                         {% endif %} -->
 
                         <div class="d-flex">
-                            <div class="h1 font-weight-normal">
-                                <span style="font-family: 'Alan Sans', serif;">{{ site.data.profile.primary_name }}</span> <small>{{ site.data.profile.secondary_name }}</small>
+                            <div class="h3 font-weight-normal">
+                                About me
                             </div>
-                            {% if site.data.profile.portrait_url %}
-                            <div class="ml-auto d-md-none">
-                                <a target="_blank" href="{{ site.data.profile.portrait_url | relative_url }}">
-                                    <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="height: 48px;" alt="Portrait">
-                                </a>
-                            </div>
-                            {% endif %}
                         </div>
                         <div class="text-profile-position">
                             {% for position in site.data.profile.positions %}
