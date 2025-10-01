@@ -19,4 +19,5 @@ authors:
   - Shiwon Kim
 links:
   Report: https://shiwonkim.github.io/uploads/11-785_Introduction_to_Deep_Learning.pdf
+  Video: https://www.youtube.com/watch?v=WvTNS-BBJ1c
 ---
