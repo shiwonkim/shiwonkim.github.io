@@ -39,18 +39,6 @@
             <p class="mt-0 mb-0 small">{{item.pub_pre}} <i>{{ item.pub }}</i> {{ item.pub_post }} {{ item.pub_date }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
             <p class="mt-0 mb-0 small">{{ item.pub_last }}</p>
             <!-- <p class="mt-0 mb-1 small text-muted">{{ item.abstract }}</p> -->
-            
-            <!-- Read More Button -->
-            <p class="mt-1 mb-1 small">
-                <a class="text-primary" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
-                    Read more
-                </a>
-            </p>
-
-            <!-- Collapsible Abstract -->
-            <div class="collapse" id="abstract-{{ forloop.index }}">
-                <p class="small text-muted mb-1">{{ item.abstract }}</p>
-            </div>
 
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                 {% for link in item.links %}
@@ -61,6 +49,19 @@
                 {% endif %}
                 {% endfor %}
             </p>
+
+            <!-- Read More Button -->
+            <p class="mt-1 mb-1 small">
+                <a class="text-primary" data-toggle="collapse" href="#abstract-{{ item.title | slugify }}" role="button" aria-expanded="false" aria-controls="abstract-{{ item.title | slugify }}">
+                    Read more
+                </a>
+            </p>
+
+            <!-- Collapsible Abstract -->
+            <div class="collapse" id="abstract-{{ item.title | slugify }}">
+                <p class="small text-muted mb-1">{{ item.abstract }}</p>
+            </div>
+
             <!-- TAG BADGES -->
             <!-- {% if item.tags %}
             <p class="mt-0 mb-0 small">
