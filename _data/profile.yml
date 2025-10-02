@@ -57,14 +57,13 @@ experience:
 - name: Carnegie Mellon University, <small>Pittsburgh, PA</small>
   logo: /assets/images/badges/CMU.jpg
   position: >- 
-    <em>Visiting Scholar</em>, Software and Societal Systems Department <br/>
-    Fully Funded by the Korean Government (IITP)
-#    [<a href="" target="_blank">Project 1</a>] [<a href="" target="_blank">Project 2</a>] [<a href="https://shiwonkim.github.io/uploads/11-785_Introduction_to_Deep_Learning.pdf" target="_blank">Project 3</a>]
+    Visiting Scholar, School of Computer Science <br/>
+    Korean Government Fellowship
   date: Aug. 2024 - Feb. 2025
 - name: University of Washington, <small>Seattle, WA</small>
   logo: /assets/images/badges/UW_gold.png
   position: >- 
-    <em>Undergraduate Exchange Student</em>, Foster School of Business
+    Undergrad. Exchange Student, Foster School of Business
   date: Sep. 2018 - Jun. 2019
 
 # awards:
