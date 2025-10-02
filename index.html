@@ -8,8 +8,16 @@ navbar_title: Home
   <div class="col-12 col-lg-3">
     {% include widgets/profile_card.html %}
 
+    {% if site.data.display.homepage.show_education %}
+      {% include widgets/education_card.html %}
+    {% endif %}
+
     {% if site.data.display.homepage.show_experience %}
       {% include widgets/experience_card.html %}
+    {% endif %}
+
+    {% if site.data.display.homepage.show_awards %}
+      {% include widgets/awards_card.html %}
     {% endif %}
   </div>
 
