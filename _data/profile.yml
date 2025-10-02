@@ -5,7 +5,8 @@ navbar_name: "Shiwon Kim"
 positions:
 # - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 #   name: Position 1 with logo
-- name: Research Assistant in AI<br>Yonsei University Health System
+- name: Research Assistant in AI
+- name: <a href="https://yuhs.severance.healthcare/yuhs-en/index.do" target="_blank">Yonsei University Health System (YUHS)</a>
 - name: M.S. in Digital Analytics
 
 
@@ -30,7 +31,7 @@ short_bio: >-
     Previously, I completed my Bachelor's program in Business Administration at the same university in 2023.
   </p>
 
-portrait_url: /assets/images/photos/profile_ny.jpeg
+portrait_url: /assets/images/photos/profile_gray.png
 # portrait_caption: >-
 #   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
