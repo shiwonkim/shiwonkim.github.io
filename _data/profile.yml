@@ -54,6 +54,17 @@ education:
   date: Mar. 2017 - Feb. 2023
 
 experience:
+- name: Yonsei University Health System, <small>Seoul, Korea</small>
+  logo: /assets/images/badges/Yonsei.png
+  position: >- 
+    Research Assistant in AI
+  date: Jul. 2025 - Present
+- name: Digital Healthcare Lab, <small>Seoul, Korea</small>
+  logo: /assets/images/badges/Yonsei.png
+  position: >- 
+    Graduate Research Assistant <br/>
+    Advised by Prof. Yu Rang Park
+  date: Mar. 2023 - Jun. 2025
 - name: Carnegie Mellon University, <small>Pittsburgh, PA</small>
   logo: /assets/images/badges/CMU.jpg
   position: >- 
