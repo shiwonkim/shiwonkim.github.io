@@ -1,7 +1,7 @@
 {% assign publications = include.publications %}
 <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
 
-  <div class="border-bottom border-gray p-3 mb-0 d-flex justify-content-between align-items-center">
+  <div class="border-bottom border-gray p-3 mb-0">
     <div>
       <h6 class="mb-0 d-inline">
         {% if include.title %}{{ include.title }}{% else %}<i class="fas fa-star"></i> Selected Recent Publications{% endif %}
@@ -11,16 +11,9 @@
 
     <div class="text-right">
       <small style="font-size: 0.75em;">
-        <!-- <strong>* <i>Equal contribution</i>, <sup>†</sup> <i>Corresponding author</i></strong> -->
         * Equal contribution, <sup>†</sup> Corresponding author
       </small>
-      <!-- <span class="text-muted" style="margin-left: 0.3em; font-size: 0.7em;">(for publications)</span> -->
     </div>
-    <!-- <div class="text-right">
-      <small class="text-muted" style="font-size: 0.75em;">
-        * Equal contribution, <sup>†</sup> Corresponding author
-      </small>
-    </div> -->
   </div>
 
   {% for item in publications limit:include.limit %}
