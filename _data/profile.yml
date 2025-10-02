@@ -8,10 +8,9 @@ positions:
 - name: Research Assistant in AI
 - name: <a href="https://yuhs.severance.healthcare/yuhs-en/index.do" target="_blank">Yonsei University Health System (YUHS)</a>
 - name: M.S. in Digital Analytics
-- name: <span style="font-family: 'JetBrains Mono', monospace;">shiwon1998@gmail.com</span>
 
 
-# email: "shiwon1998@gmail.com"
+email: "shiwon1998@gmail.com"
 cv_link: https://shiwonkim.github.io/uploads/CV_ShiwonKim.pdf
 gscholar: 2M8pQ4MAAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: shiwonkim
