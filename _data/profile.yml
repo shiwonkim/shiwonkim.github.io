@@ -42,40 +42,47 @@ education:
 #     Department of Electrical Engineering and Computer Science <br/>
 #     Ph.D. Student
 #   date: Sep. 2024 - present
-- name: Yonsei University, <small>Seoul, Korea</small>
+- name: Yonsei University
   logo: /assets/images/badges/Yonsei.png
   position: >- 
     M.S., Digital Analytics <a href="https://shiwonkim.github.io/uploads/Masters_Thesis.pdf" target="_blank">[Thesis]</a> <br/>
+  description:
     Advised by Prof. Yu Rang Park
   date: Mar. 2023 - Aug. 2025
+  place: Seoul, Korea
 - name: Yonsei University, <small>Seoul, Korea</small>
   logo: /assets/images/badges/Yonsei.png
   position: B.B.A., Business Administration
   date: Mar. 2017 - Feb. 2023
+  place: Seoul, Korea
 
 experience:
-- name: Yonsei University Health System, <small>Seoul, Korea</small>
+- name: Yonsei University Health System
   logo: /assets/images/badges/Yonsei.png
   position: >- 
     Research Assistant in AI
   date: Jul. 2025 - Present
-- name: Digital Healthcare Lab, <small>Seoul, Korea</small>
+  place: Seoul, Korea
+- name: Digital Healthcare Lab
   logo: /assets/images/badges/Yonsei.png
   position: >- 
     Graduate Research Assistant <br/>
     Advised by Prof. Yu Rang Park
   date: Mar. 2023 - Jun. 2025
-- name: Carnegie Mellon University, <small>Pittsburgh, PA</small>
+  place: Seoul, Korea
+- name: Carnegie Mellon University
   logo: /assets/images/badges/CMU.jpg
   position: >- 
     Visiting Scholar, Computer Science <br/>
     Korean Government Fellowship
   date: Aug. 2024 - Feb. 2025
-- name: University of Washington, <small>Seattle, WA</small>
+  place: Pittsburgh, PA
+- name: University of Washington
   logo: /assets/images/badges/UW_gold.png
   position: >- 
     Exchange Student, Business
   date: Sep. 2018 - Jun. 2019
+  place: Seattle, WA
 
 # awards:
 # - name: Award Name 2
