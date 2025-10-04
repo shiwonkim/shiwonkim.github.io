@@ -25,7 +25,7 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am an AI researcher with primary interests in developing scalable and data-efficient learning systems, particularly for applications in medical imaging. 
-    My work focuses on learning from evolving and limited (privacy-sensitive) data conditions that are common in real-world scenarios but remain challenging for deep learning models.
+    My work focuses on learning from evolving and limited (scarce or privacy-sensitive) data conditions that are common in real-world scenarios but remain challenging for deep learning models.
   </p>
   <div class="h6 mt-4">Biography</div>
   <p>
