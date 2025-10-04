@@ -26,8 +26,10 @@ short_bio: >-
   <p>
     I am an AI researcher with primary interests in developing scalable and data-efficient learning systems, particularly for applications in medical imaging. 
     My work focuses on learning from evolving and limited (scarce or privacy-sensitive) data conditions that are common in real-world scenarios but remain challenging for deep learning models. 
-    Learn more about my research <a href="https://shiwonkim.github.io/research">here</a>.<br>
-    Research keywords include: <span class="tag-badge-bio"># continual learning</span><span class="tag-badge-bio"># few-shot learning</span><span class="tag-badge-bio"># medical imaging</span>.
+    Learn more about my research <a href="https://shiwonkim.github.io/research">here</a>.
+  </p>
+  <p>
+    Research keywords include: <span class="tag-badge-bio"># continual learning</span><span class="tag-badge-bio"># few-shot learning</span><span class="tag-badge-bio"># medical imaging</span>
   </p>
   <div class="h6 mt-4">Biography</div>
   <p>
