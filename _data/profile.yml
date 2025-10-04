@@ -35,13 +35,6 @@ short_bio: >-
   <p>
     where I conducted research at the <a href="https://www.dhlab.org/" target="_blank">Digital Healthcare Lab (DHLab)</a> 
   </p>
-  <p>
-    Humans, animals, and other living beings have a natural ability to autonomously learn throughout their lives and quickly adapt to their surroundings, but computers lack such abilities. My goal is to bridge such gaps between the learning of living-beings and computers. My current focus is on AI that can autonomously learn to perceive, act, and reason throughout their lives.
-
-    I work on problems in several areas of machine learning, such as approximate inference, deep learning, reinforcement learning, active learning, online learning, and reasoning in computer vision. In my recent works, I have worked on ideas from a wide range of fields, such as, optimization, Bayesian statistics, information geometry, signal processing, and control systems.
-
-    For details of my research activities, see the following pages,
-  </p>
 
 portrait_url: /assets/images/photos/profile_spring.jpeg
 # portrait_caption: >-
