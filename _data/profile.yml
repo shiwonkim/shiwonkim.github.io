@@ -24,7 +24,8 @@ linkedin: shiwon-kim-958462173
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am an AI researcher interested in continual learning and few-shot learning, with a focus on applications in medical imaging.
+    I am an AI researcher particularly interested in developing scalable and data-efficient learning systems, with an emphasis on applications in medical imaging. 
+    My work focuses on learning from limited, evolving, and privacy-sensitive data conditions that are common in real-world scenarios but remain challenging for deep learning models.
   </p>
   <div class="h6 mt-4">Biography</div>
   <p>
