@@ -29,7 +29,7 @@ short_bio: >-
     Learn more about my research <a href="https://shiwonkim.github.io/research">here</a>.
   </p>
   <p>
-    Research keywords include: <mark>continual learning</mark>, <mark>few-shot learning</mark>, and <mark>medical imaging</mark>
+    Research keywords include: <span class="text-hl">continual learning</span>, <span class="text-hl">few-shot learning</span>, and <span class="text-hl">medical imaging</span>
   </p>
   <div class="h6 mt-4">Biography</div>
   <p>
