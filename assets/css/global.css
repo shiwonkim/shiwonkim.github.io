@@ -18,6 +18,16 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 500;
 }
 
+a {
+  color: #1a2238;
+  text-decoration: none; /* no underline */
+}
+
+a:hover {
+  color: #ff6f61;
+  text-decoration: underline;
+}
+
 .card {
     border-radius: 0.8rem!important;
 }
