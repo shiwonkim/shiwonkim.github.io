@@ -25,6 +25,15 @@ h1, h2, h3, h4, h5, h6,
     border-radius: 4px;
 }
 
+.text-ul {
+    font-weight: 500;
+    padding: 0.1em 0.2em;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: -2px;
+    text-decoration-color: #ffd500;
+}
+
 .card {
     border-radius: 0.8rem!important;
 }
