@@ -32,7 +32,7 @@ short_bio: >-
     Research keywords include: <span class="text-hl">continual learning</span>, <span class="text-hl">few-shot learning</span>, and <span class="text-hl">medical imaging</span>
   </p>
   <div class="bd-callout bd-callout-info bg-white shadow-sm">
-    <i class="fas fa-info-circle"></i> 
+    <i class="fas fa-info-circle" style="margin-right: 0.3em;"></i> 
     I am actively seeking Ph.D. opportunities starting in Fall 2026. 
     If you're looking for a motivated Ph.D. student or collaborator in this area, please feel free to reach out!
   </div>
