@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6,
 .text-hl {
     /* background-color: #fffcab; */
     font-weight: 600;
-    padding: 0.1em 0.2em;
+    /* padding: 0.1em 0.2em; */
     /* border-radius: 4px; */
 
     background-color: transparent;
