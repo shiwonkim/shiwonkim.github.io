@@ -31,10 +31,11 @@ short_bio: >-
   <p>
     Research keywords include: <span class="text-hl">continual learning</span>, <span class="text-hl">few-shot learning</span>, and <span class="text-hl">medical imaging</span>
   </p>
-  <p>
-    <strong>I am actively seeking Ph.D. opportunities starting in Fall 2026.</strong> 
+  <div class="bd-callout bd-callout-info bg-white shadow-sm">
+    <i class="fas fa-info-circle"></i> 
+    I am actively seeking Ph.D. opportunities starting in Fall 2026. 
     If you're looking for a motivated Ph.D. student or collaborator in this area, please feel free to reach out!
-  </p>
+  </div>
   <div class="h6 mt-4">Brief Biography</div>
   <p>
     I am currently a research assistant at the Medical Informatics Collaboration Unit (MCU) of <a href="https://yuhs.severance.healthcare/yuhs-en/index.do" target="_blank">Yonsei University Health System (YUHS)</a> in Seoul, Republic of Korea. 
