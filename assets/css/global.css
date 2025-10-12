@@ -33,21 +33,6 @@ h1, h2, h3, h4, h5, h6,
     text-decoration-skip-ink: none;
 }
 
-.bd-callout {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    padding: 1.25rem;
-    border-width: 1px 1px 1px 0.25rem;
-    border-style: solid;
-    border-color: rgb(238, 238, 238);
-    border-image: initial;
-    border-radius: 0.25rem;
-}
-
-.bd-callout-info {
-    border-left-color: rgb(91, 192, 222);
-}
-
 .card {
     border-radius: 0.8rem!important;
 }
