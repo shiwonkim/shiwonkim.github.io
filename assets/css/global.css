@@ -33,6 +33,16 @@ h1, h2, h3, h4, h5, h6,
     text-decoration-skip-ink: none;
 }
 
+.callout-box {
+  background-color: #fff8dc;
+  border-left: 4px solid #f0ad4e;
+  padding: 1em 1.2em;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
 .card {
     border-radius: 0.8rem!important;
 }
