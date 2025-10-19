@@ -20,5 +20,5 @@ authors:
   - Ho Seung Kang
   - Donghyeok Seo
 links:
-  Slides: https://shiwonkim.github.io/uploads/주제_2번_1조.pdf
+  Slides: https://shiwonkim.github.io/uploads/2024_Yonsei_Korean.pdf
 ---
