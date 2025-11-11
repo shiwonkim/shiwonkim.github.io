@@ -4,7 +4,7 @@ date:           2025-10-20
 selected:       true
 type:           publication
 tags:           ["# continual learning", "# few-shot learning"]
-pub:            "ICCV 2025 Workshop on Continual Learning in Computer Vision (CLVision)"
+pub:            "International Conference on Computer Vision (ICCV) 2025 CLVision"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
@@ -21,7 +21,7 @@ authors:
 links:
   Paper: https://shiwonkim.github.io/uploads/ICCV_CLVision.pdf
   Poster: https://shiwonkim.github.io/uploads/ICCV_CLVision_Poster.pdf
-  Slides: https://shiwonkim.github.io/uploads/ICCV_CLVision_Slides.pdf
+  # Slides: https://shiwonkim.github.io/uploads/ICCV_CLVision_Slides.pdf
   Video: https://youtu.be/es2J-dfRYcU
   Code: https://github.com/shiwonkim/Joint_FSCIL
 ---
