@@ -22,6 +22,6 @@ authors:
   - Dongjun Hwang
   - Vijay Sai
 links:
-  Slides: shiwonkim.github.io
-  Video: shiwonkim.github.io
+  Slides: https://shiwonkim.github.io/uploads/IITP_CMU_Studio_Project.pdf
+  # Video: 
 ---
