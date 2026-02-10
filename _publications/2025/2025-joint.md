@@ -22,6 +22,6 @@ links:
   Paper: https://shiwonkim.github.io/uploads/ICCV_CLVision.pdf
   Poster: https://shiwonkim.github.io/uploads/ICCV_CLVision_Poster.pdf
   # Slides: https://shiwonkim.github.io/uploads/ICCV_CLVision_Slides.pdf
-  Video: https://youtu.be/es2J-dfRYcU
+  # Video: https://youtu.be/es2J-dfRYcU
   Code: https://github.com/shiwonkim/Joint_FSCIL
 ---
