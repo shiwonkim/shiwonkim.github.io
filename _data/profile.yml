@@ -31,11 +31,6 @@ short_bio: >-
   <p>
     Research keywords include: <span class="text-hl">continual learning</span>, <span class="text-hl">few-shot learning</span>, <span class="text-hl">medical imaging</span>, and so on.
   </p>
-  <div class="bd-callout bd-callout-info bg-white shadow-sm">
-    <i class="fas fa-info-circle" style="margin-right: 0.2em;"></i> 
-    I am actively seeking Ph.D. opportunities starting in Fall 2026. 
-    If you're looking for a motivated Ph.D. student or collaborator in this area, please feel free to reach out!
-  </div>
   <div class="h6 mt-5">Brief Biography</div>
   <p>
     I am currently a research assistant at the Medical Informatics Collaboration Unit (MCU) of <a href="https://yuhs.severance.healthcare/yuhs-en/index.do" target="_blank">Yonsei University Health System (YUHS)</a> in Seoul, Republic of Korea. 
@@ -43,6 +38,11 @@ short_bio: >-
     I received my B.B.A. in Business Administration from the same university in 2023. 
     From August 2024 to February 2025, I was a visiting scholar at the <a href="https://www.cs.cmu.edu/" target="_blank">CMU School of Computer Science</a> as part of the <a href="https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mId=4&mPid=2&bbsSeqNo=42&nttSeqNo=697" target="_blank">Carnegie Mellon University Intensive AI Education Program</a> sponsored by the South Korean government.
   </p>
+# <div class="bd-callout bd-callout-info bg-white shadow-sm">
+#   <i class="fas fa-info-circle" style="margin-right: 0.2em;"></i> 
+#   I am actively seeking Ph.D. opportunities starting in Fall 2026. 
+#   If you're looking for a motivated Ph.D. student or collaborator in this area, please feel free to reach out!
+# </div>
 
 portrait_url: /assets/images/photos/headshot.png
 # portrait_caption: >-
