@@ -27,5 +27,5 @@ authors:
 links:
   Paper: https://link.springer.com/article/10.1007/s11547-025-01974-4
   Slides: https://shiwonkim.github.io/uploads/Hi-DER.pdf
-  Code: https://github.com/DigitalHealthcareLab/24HiDER
+  Code: https://github.com/shiwonkim/Hi-DER
 ---
