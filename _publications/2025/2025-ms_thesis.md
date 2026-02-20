@@ -1,7 +1,7 @@
 ---
 title:          "Debiasing Few-Shot Class-Incremental Learning via Dynamic Feature-Classifier Alignment"
 date:           2025-08-29
-selected:       false
+selected:       true
 # type:           publication
 tags:           ["# continual learning", "# few-shot learning", "# neural collapse"]
 pub:            "Master's Thesis, Yonsei University"
