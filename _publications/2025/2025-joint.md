@@ -19,7 +19,7 @@ authors:
   - Sungwon Woo*
   - Rita Singh#
 links:
-  Paper: https://shiwonkim.github.io/uploads/ICCV_CLVision.pdf
+  Paper: https://arxiv.org/abs/2503.10003
   Poster: https://shiwonkim.github.io/uploads/ICCV_CLVision_Poster.pdf
   # Slides: https://shiwonkim.github.io/uploads/ICCV_CLVision_Slides.pdf
   # Video: https://youtu.be/es2J-dfRYcU
