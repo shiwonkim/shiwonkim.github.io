@@ -100,56 +100,160 @@ navbar_title: Bio
 </div>
 
 <style>
-.timeline {
-  position: relative;
-  padding-left: 2.2rem;
-}
-.timeline::before {
-  content: "";
-  position: absolute;
-  left: 0.95rem;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: rgba(0,0,0,0.12);
-}
+  /* Soft vibe base */
+  .bio-main h2 { letter-spacing: -0.02em; }
+  .bio-main p { line-height: 1.5; }
 
-.tl-item {
-  position: relative;
-  padding-bottom: 1.5rem;
-}
-.tl-dot {
-  position: absolute;
-  left: 0.6rem;
-  top: 1.1rem;
-  width: 0.85rem;
-  height: 0.85rem;
-  border-radius: 999px;
-  border: 2px solid rgba(0,0,0,0.45);
-  background: #fff;
-}
+  /* Timeline spine */
+  .timeline {
+    position: relative;
+    padding-left: 2.4rem;
+    padding-bottom: 1.5rem;
+  }
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 1.05rem;
+    top: 0.35rem;
+    bottom: 0.35rem;
+    width: 1px;
+    background: rgba(0,0,0,0.18);
+  }
 
-.tl-card {
-  border-radius: 14px;
-  border: 1px solid rgba(0,0,0,0.08);
-}
+  /* Item */
+  .tl-item {
+    position: relative;
+    padding-bottom: 1.25rem;
+  }
 
-.btn.is-active {
-  background: #111;
-  color: #fff;
-  border-color: #111;
-}
+  /* Dot: soft ring + glow */
+  .tl-dot {
+    position: absolute;
+    left: 0.78rem;
+    top: 1.15rem;
+    width: 0.72rem;
+    height: 0.72rem;
+    border-radius: 999px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.35);
+    box-shadow: 0 0 0 6px rgba(0,0,0,0.03);
+  }
 
-.tl-hidden {
-  display: none !important;
-}
+  /* Card: glassy + gentle */
+  .tl-card {
+    border-radius: 18px;
+    border: 1px solid rgba(0,0,0,0.08);
+    background: rgba(255,255,255,0.78);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow:
+      0 10px 24px rgba(0,0,0,0.08),
+      0 1px 0 rgba(255,255,255,0.6) inset;
+    transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+  }
+
+  .tl-card:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      0 16px 34px rgba(0,0,0,0.10),
+      0 1px 0 rgba(255,255,255,0.6) inset;
+    border-color: rgba(0,0,0,0.12);
+  }
+
+  /* Kicker */
+  .tl-kicker {
+    font-size: 0.92rem;
+    opacity: 0.9;
+  }
+
+  /* Badge: soft pill */
+  .tl-badge {
+    font-weight: 600;
+    border: 1px solid rgba(0,0,0,0.10);
+    background: rgba(255,255,255,0.85);
+    color: rgba(0,0,0,0.75);
+  }
+
+  /* Type accent (subtle left border) */
+  .tl-card .card-body {
+    position: relative;
+  }
+  .tl-card .card-body::before {
+    content: "";
+    position: absolute;
+    left: 0.9rem;
+    top: 1.0rem;
+    bottom: 1.0rem;
+    width: 3px;
+    border-radius: 999px;
+    opacity: 0.55;
+    background: rgba(0,0,0,0.12);
+  }
+  .tl-item[data-type="education"] .tl-card .card-body::before {
+    background: rgba(0,0,0,0.18);
+  }
+  .tl-item[data-type="experience"] .tl-card .card-body::before {
+    background: rgba(0,0,0,0.10);
+  }
+  .tl-card .card-body {
+    padding-left: 1.7rem; /* leave space for accent bar */
+  }
+
+  /* Tags */
+  .tl-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    justify-content: flex-end;
+  }
+  .tl-tags .badge {
+    border-radius: 999px;
+    padding: 0.35em 0.55em;
+    font-weight: 500;
+    background: rgba(255,255,255,0.65) !important;
+  }
+
+  /* Filter buttons: calmer */
+  .btn.is-active {
+    background: rgba(0,0,0,0.88);
+    color: #fff;
+    border-color: rgba(0,0,0,0.88);
+  }
+
+  /* Hide utility */
+  .tl-hidden { display: none !important; }
+
+  /* ===== Fade-in animation ===== */
+  .tl-item { opacity: 0; transform: translateY(10px); }
+  .tl-item.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 600ms ease, transform 600ms ease;
+  }
+
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .tl-item { opacity: 1; transform: none; }
+    .tl-item.is-visible { transition: none; }
+    .tl-card { transition: none; }
+  }
+
+  @media (max-width: 576px) {
+    .timeline { padding-left: 1.9rem; }
+    .timeline::before { left: 0.85rem; }
+    .tl-dot { left: 0.58rem; }
+  }
 </style>
 
 <script>
 (function () {
-  const buttons = document.querySelectorAll('[data-filter]');
-  const items = document.querySelectorAll('.tl-item');
+  const root = document.querySelector('.bio-main');
+  if (!root) return;
 
+  const buttons = root.querySelectorAll('[data-filter]');
+  const items = root.querySelectorAll('.tl-item');
+
+  // Filter
   function setActive(btn) {
     buttons.forEach(b => b.classList.remove('is-active'));
     btn.classList.add('is-active');
@@ -161,15 +265,39 @@ navbar_title: Bio
       const show = (filter === 'all' || type === filter);
       el.classList.toggle('tl-hidden', !show);
     });
+
+    // After filtering, re-trigger visibility for newly shown items
+    requestAnimationFrame(() => {
+      items.forEach(el => {
+        if (!el.classList.contains('tl-hidden')) {
+          // If already visible, keep it. Otherwise observe for fade-in.
+          // (No extra work needed; IntersectionObserver will handle it.)
+        }
+      });
+    });
   }
 
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
+      const filter = btn.getAttribute('data-filter');
       setActive(btn);
-      applyFilter(btn.getAttribute('data-filter'));
+      applyFilter(filter);
     });
   });
 
+  // Fade-in on scroll: IntersectionObserver
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target); // animate once
+      }
+    });
+  }, { threshold: 0.12 });
+
+  items.forEach(el => io.observe(el));
+
+  // Init
   applyFilter('all');
 })();
 </script>
