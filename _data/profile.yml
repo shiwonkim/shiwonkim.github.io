@@ -15,9 +15,6 @@ cv_link: https://shiwonkim.github.io/uploads/CV_ShiwonKim_one_page.pdf
 gscholar: 2M8pQ4MAAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: shiwonkim
 # twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 linkedin: shiwon-kim-958462173
 # orcid: 0009-0007-8197-0816
 
@@ -49,12 +46,6 @@ portrait_url: /assets/images/photos/headshot.png
 #   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-# - name: Massachusetts Institute of Technology
-#   logo: /assets/images/badges/MIT_Social_circle.png
-#   position: >- 
-#     Department of Electrical Engineering and Computer Science <br/>
-#     Ph.D. Student
-#   date: Sep. 2024 - present
 - name: Yonsei University
   logo: /assets/images/badges/Yonsei.png
   position: >- 
