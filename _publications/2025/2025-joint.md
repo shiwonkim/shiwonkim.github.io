@@ -4,7 +4,7 @@ date:           2025-10-20
 selected:       true
 type:           publication
 tags:           ["# continual learning", "# few-shot learning"]
-pub:            "International Conference on Computer Vision (ICCV) 2025 CLVision"
+pub:            "International Conference on Computer Vision (ICCV) 2025 Workshop on Continual Learning in Computer Vision (CLVision)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
